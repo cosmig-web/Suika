@@ -11,6 +11,7 @@ public class Cherry : MonoBehaviour
     public string TagName = "";
 
     private Rigidbody2D rg;
+    //private bool Fail;
     private bool IsFalling  = true;
     private bool isLoose = false;
 
@@ -37,7 +38,7 @@ public class Cherry : MonoBehaviour
             }
         }
 
-        if (gameObject.transform.position.y > 2.42 && IsFalling)
+        if (gameObject.transform.position.y > 2.50 && IsFalling)
         {
             isLoose = true;
             Points.instance.GameOver(isLoose);

@@ -105,8 +105,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PointsWhenDestroyed: 0
   NextStage: {fileID: 0}
-  height: 2.41
-  TagName: 
+  height: 2.34
+  TagName: Grape
 --- !u!50 &-684368299154597670
 Rigidbody2D:
   serializedVersion: 5
@@ -184,5 +184,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PointsWhenDestroyed: 6
   NextStage: {fileID: 7940940750351949821, guid: 3f6de2422dff55bdf813bab00547e79c, type: 3}
-  height: 3
+  height: 2.37
   TagName: Grape

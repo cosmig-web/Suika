@@ -17,7 +17,7 @@ public class Spawning : MonoBehaviour
         seed = Random.Range(0, SpawnableObjects.Length);
         if (!Spawned)
         {
-            Instantiate(SpawnableObjects[seed], new Vector2(0,3), Quaternion.identity);
+            Instantiate(SpawnableObjects[seed], new Vector2(0,2.41f), Quaternion.identity);
             Spawned = true;
         }
 
